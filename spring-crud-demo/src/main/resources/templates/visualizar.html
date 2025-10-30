@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Visualizar Produto</title>
+</head>
+<body>
+<h1 th:text="${produto.nome}">Produto</h1>
+<p><b>Categoria:</b> <span th:text="${produto.categoria}"></span></p>
+<p><b>Preço:</b> R$ <span th:text="${produto.preco}"></span></p>
+<p><b>Quantidade:</b> <span th:text="${produto.quantidade}"></span></p>
+<p><b>Descrição:</b> <span th:text="${produto.descricao}"></span></p>
+<a href="/produtos">Voltar</a>
+</body>
+</html>

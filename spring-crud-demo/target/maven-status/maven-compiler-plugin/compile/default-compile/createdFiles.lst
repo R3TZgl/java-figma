@@ -1,0 +1,4 @@
+com\exemplo\springcrud\SpringCrudApplication.class
+com\exemplo\springcrud\controller\ProdutoController.class
+com\exemplo\springcrud\model\Produto.class
+com\exemplo\springcrud\repository\ProdutoRepository.class
